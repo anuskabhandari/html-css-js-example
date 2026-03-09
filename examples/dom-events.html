@@ -1,0 +1,31 @@
+HTML
+<div class="container">
+
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+
+</div>
+
+<button id="colorBtn">Change Color</button>
+<style>
+.card{
+background:#ddd;
+padding:30px;
+text-align:center;
+}
+</style>
+JavaScript
+<script>
+document.getElementById("colorBtn").addEventListener("click",function(){
+
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(function(card){
+
+card.style.background="lightblue";
+
+});
+
+});
+</script>

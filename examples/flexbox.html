@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Cards</title>
+
+<style>
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#eee;
+    padding:20px;
+    flex:1;
+    text-align:center;
+}
+
+@media(max-width:600px){
+    .container{
+        flex-direction:column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+</div>
+
+<script>
+
+function greet(){
+ console.log("Hello World");
+}
+
+// calling function
+greet();
+
+// function with parameter
+function greetUser(name){
+ alert("Hello " + name);
+}
+
+greetUser("Anuska");
+
+</script>
+
+</body>
+</html>
