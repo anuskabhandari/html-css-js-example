@@ -1,0 +1,14 @@
+body{
+  background-color: blueviolet;
+  font-size: larger;
+  font-style: italic;
+
+}
+button{
+    padding-left: 30px;
+    color: blanchedalmond;
+    background-color: cadetblue;
+}
+#container{
+    display :block;
+}

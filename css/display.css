@@ -1,0 +1,12 @@
+body{
+   font-family: Poppins;
+   font-size: 30px;
+   background-color: lightgreen;
+}
+
+button{
+   font-size: large;
+   font-style: italic;
+   color: burlywood;
+   padding: auto;
+}

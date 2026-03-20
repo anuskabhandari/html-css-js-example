@@ -1,0 +1,13 @@
+input{
+    font-size: 30px;
+    padding-right: 30pt;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: aquamarine;
+    padding: auto;
+    text-align:centre;
+    margin-top: 50px;
+    margin-left: 200pt;
+}

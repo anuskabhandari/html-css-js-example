@@ -1,0 +1,13 @@
+body{
+    font-size: 40px;
+    text-decoration-color: bisque;
+    background-color: chocolate;
+}
+
+button{
+
+    font-size: 30px;
+    color: darkmagenta;
+    padding: auto;
+    background-color: aquamarine;
+}
