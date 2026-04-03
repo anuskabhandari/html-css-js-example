@@ -9,7 +9,7 @@ These exercises helped me learn front-end development from **basic to intermedia
 
 ##  Projects & Examples
 
-### 1️ DOM Interaction
+### 1️. DOM Interaction
 
 **Tasks practiced:**
 
@@ -27,7 +27,7 @@ These exercises helped me learn front-end development from **basic to intermedia
 
 ---
 
-### 2️ To-Do App
+### 2️. To-Do App
 
 **Features:**
 
@@ -42,7 +42,7 @@ These exercises helped me learn front-end development from **basic to intermedia
 
 ---
 
-### 3️ Calculator App
+### 3️. Calculator App
 
 **Features:**
 
@@ -60,7 +60,30 @@ These exercises helped me learn front-end development from **basic to intermedia
 
 ---
 
-### 4️ Responsive Web Design
+### 4. Weather App
+
+**Features:**
+
+Enter any city name to get real-time weather.
+Displays temperature (°C) and weather condition.
+Clear button to reset input and result.
+Responsive, professional design with hover effects.
+Handles errors for invalid or empty city input.
+
+**Concepts learned:**
+
+Fetch API to get data from OpenWeatherMap API
+DOM manipulation to display results dynamically
+Event handling for buttons
+Error handling and input validation
+CSS styling for professional look
+
+**Screenshot:**
+https://drive.google.com/file/d/1VoA-Znny_QLvq9XG-3cc7Mh2-RaBrD6P/view?usp=sharing
+
+---
+
+### 5. Responsive Web Design
 
 **Practices:**
 
