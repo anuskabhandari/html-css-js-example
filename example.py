@@ -1,9 +1,9 @@
-price = input("Enter price: ")
-tax_rate = input("Enter tax rate: ")
+from file_renamer import file_renamer
 
+fr = file_renamer.BulkFileRenamer(
+    "C:/Users/Dell/Desktop/TestFiles",
+    prefix_value="demo",   # set prefix here
+    start=1
+)
 
-def calculate_tax(price, tax_rate):
-    return price * tax_rate
-
-def calculate_sum(price, tax_rate):
-    return price + tax_rate
+fr.rename_files()
