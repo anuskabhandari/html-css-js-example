@@ -1,0 +1,17 @@
+<input id="search" oninput="filterList()">
+<ul id="items">
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Mango</li>
+</ul>
+
+<script>
+function filterList() {
+  let input = document.getElementById("search").value.toLowerCase();
+  let items = document.querySelectorAll("#items li");
+
+  items.forEach(item => {
+    item.style.display = item.innerText.toLowerCase().includes(input) ? "block" : "none";
+  });
+}
+</script>

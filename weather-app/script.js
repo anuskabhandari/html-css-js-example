@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let url = "https://api.openweathermap.org/data/2.5/weather?q=" 
                   + cityName 
-                  + "&appid=&units=metric";
+                  + "&appid=a058d58a8021f7f0f6c8285b483601e3&units=metric";
 
         fetch(url)
         .then(response => response.json())

@@ -1,0 +1,9 @@
+<button onclick="generate()">Generate</button>
+<p id="random"></p>
+
+<script>
+function generate() {
+  let num = Math.floor(Math.random() * 100);
+  document.getElementById("random").innerText = num;
+}
+</script>

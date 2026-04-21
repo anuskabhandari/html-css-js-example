@@ -1,0 +1,12 @@
+<input id="todoInput">
+<button onclick="addTodo()">Add</button>
+<ul id="list"></ul>
+
+<script>
+function addTodo() {
+  let input = document.getElementById("todoInput").value;
+  let li = document.createElement("li");
+  li.innerText = input;
+  document.getElementById("list").appendChild(li);
+}
+</script>

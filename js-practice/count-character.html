@@ -1,0 +1,9 @@
+<input id="textInput" oninput="countChars()">
+<p id="count"></p>
+
+<script>
+function countChars() {
+  let text = document.getElementById("textInput").value;
+  document.getElementById("count").innerText = text.length;
+}
+</script>

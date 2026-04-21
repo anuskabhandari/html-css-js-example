@@ -1,0 +1,10 @@
+<button onclick = "toggleText()">Toggle</button>
+<p id = "text">Hello World</p>
+
+<script>
+    function toggleText(){
+        let text = document.getElementById("text");
+        text.style.display = (text.style.display === "none") ? "block" : "none";
+        
+    }
+</script>

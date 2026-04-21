@@ -1,0 +1,13 @@
+<input id="checkInput">
+<button onclick="check()">Submit</button>
+
+<script>
+function check() {
+  let value = document.getElementById("checkInput").value;
+  if (value === "") {
+    alert("Input is empty");
+  } else {
+    alert("Submitted");
+  }
+}
+</script>
