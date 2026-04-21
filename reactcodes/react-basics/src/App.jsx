@@ -4,6 +4,10 @@ import Greeting from "./Greeting";
 import DisableButton from "./DisableButton";
 import MultiForm from "./MultiForm";
 import PasswordToggle from "./PasswordToggle";
+import Tabs from "./Tabs";
+import FetchUsers from "./FetchUsers";
+import CheckBoxList from "./CheckBoxList";
+import Countdown from "./Countdown";
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
       <DisableButton />
       <MultiForm/>
       <PasswordToggle/>
+      <Tabs/>
+      <FetchUsers/>
+      <CheckBoxList/>
+      <Countdown/>
       
     </div>
   );

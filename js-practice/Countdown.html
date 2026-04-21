@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="count">10</h2>
+<button onclick="startTimer()">Start</button>
+
+<script>
+  let count = 10;
+  let interval;
+
+  function startTimer() {
+    interval = setInterval(() => {
+      count--;
+      document.getElementById("count").innerText = count;
+
+      if (count === 0) {
+        clearInterval(interval);
+      }
+    }, 1000);
+  }
+</script>
+
+</body>
+</html>

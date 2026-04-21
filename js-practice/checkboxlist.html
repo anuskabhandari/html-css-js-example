@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Select Fruits</h2>
+
+<label><input type="checkbox" value="Apple" onchange="handleCheck(event)"> Apple</label><br>
+<label><input type="checkbox" value="Banana" onchange="handleCheck(event)"> Banana</label><br>
+<label><input type="checkbox" value="Mango" onchange="handleCheck(event)"> Mango</label><br>
+
+<script>
+  let selected = [];
+
+  function handleCheck(e) {
+    const value = e.target.value;
+
+    if (e.target.checked) {
+      selected.push(value);
+    } else {
+      selected = selected.filter(item => item !== value);
+    }
+
+    console.log(selected);
+  }
+</script>
+
+</body>
+</html>
