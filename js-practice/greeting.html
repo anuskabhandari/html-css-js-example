@@ -1,5 +1,10 @@
-import {useState} from "react";
-function Greeting() {
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="greeting"></h2>
+
+<script>
   const hour = new Date().getHours();
   let message = "";
 
@@ -11,11 +16,8 @@ function Greeting() {
     message = "Good Evening";
   }
 
-  return (
-    <div>
-      <h2>{message}</h2>
-    </div>
-  );
-}
+  document.getElementById("greeting").innerText = message;
+</script>
 
-export default Greeting;
+</body>
+</html>

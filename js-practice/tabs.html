@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs System</title>
+</head>
+<body>
+    <h2>Tabs System</h2>
+    <button onClick ="showTab('home')">Home</button>
+    <button onClick ="showTab('about')">About</button>
+    <button onClick ="showTab('contact')">Contact</button>
+
+    <h3 id = "content">Home Page</h3>
+
+    <script>
+        function showTab(tab){
+            let content = document.getElementById("content");
+
+            if (tab === "home"){
+                content.innerText = "Welcome to home page";
+            }else if (tab === "about"){
+                content.innerText ="About Us Section";
+            }else{
+                content.innerText = "Contact Page";
+            }
+        }
+    </script>
+</body>
+</html>
